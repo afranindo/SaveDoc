@@ -21,6 +21,7 @@
 		F2CEB5F819CFFFA5001E9E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CEB5DA19CFFFA4001E9E11 /* UIKit.framework */; };
 		F2CEB60019CFFFA5001E9E11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2CEB5FE19CFFFA5001E9E11 /* InfoPlist.strings */; };
 		F2CEB60219CFFFA5001E9E11 /* SaveDocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEB60119CFFFA5001E9E11 /* SaveDocTests.m */; };
+		F2CEB60C19D01769001E9E11 /* pic_mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2CEB60B19D01769001E9E11 /* pic_mountain.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F2CEB5FD19CFFFA5001E9E11 /* SaveDocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaveDocTests-Info.plist"; sourceTree = "<group>"; };
 		F2CEB5FF19CFFFA5001E9E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2CEB60119CFFFA5001E9E11 /* SaveDocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveDocTests.m; sourceTree = "<group>"; };
+		F2CEB60B19D01769001E9E11 /* pic_mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic_mountain.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		F2CEB5DD19CFFFA4001E9E11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2CEB60B19D01769001E9E11 /* pic_mountain.jpg */,
 				F2CEB5DE19CFFFA4001E9E11 /* SaveDoc-Info.plist */,
 				F2CEB5DF19CFFFA4001E9E11 /* InfoPlist.strings */,
 				F2CEB5E219CFFFA4001E9E11 /* main.m */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2CEB5EF19CFFFA4001E9E11 /* Images.xcassets in Resources */,
+				F2CEB60C19D01769001E9E11 /* pic_mountain.jpg in Resources */,
 				F2CEB5E119CFFFA4001E9E11 /* InfoPlist.strings in Resources */,
 				F2CEB5EA19CFFFA4001E9E11 /* Main.storyboard in Resources */,
 			);
