@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+  
 	// Do any additional setup after loading the view, typically from a nib.
   NSMutableString *someText = [NSMutableString stringWithString:@"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"  \"http://www.w3.org/TR/html4/loose.dtd\"><html xmlns:v=\"urn:schemas-microsoft-com:vml\"xmlns:o=\"urn:schemas-microsoft-com:office:office\"xmlns:w=\"urn:schemas-microsoft-com:office:word\"xmlns=\"http://www.w3.org/TR/REC-html40\"><h2>Spectacular Mountains</h2>"];
   NSString *fileURLString = [[[NSBundle mainBundle] URLForResource:@"pic_mountain" withExtension:@"jpg"] absoluteString];
@@ -46,6 +47,10 @@
   } else {
     NSLog(@"Failed to store the file. Error = %@", error);
   }
+}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+  [controller dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
